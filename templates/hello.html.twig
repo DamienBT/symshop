@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Test</title>
+	</head>
+	<body>
+		<h1>Hello
+			{{prenom}}</h1>
+
+		<ul>
+			{% for personne in prenoms %}
+				<li>{{personne | upper}}</li>
+
+			{% endfor %}
+		</ul>
+		<p>
+			{% if  age >= 18 %}
+				Vous etes un adulte
+			{% else %}
+				vous etes un enfant
+			{% endif %}
+		</p>
+	</body>
+</html></p></body></html>
